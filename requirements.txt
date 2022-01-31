@@ -1,0 +1,4 @@
+Libraries used:
+numpy, pandas, matplotlib.pyplot, re, nltk, statistics, sklearn
+
+Note: additional nltk packages require download (code included)

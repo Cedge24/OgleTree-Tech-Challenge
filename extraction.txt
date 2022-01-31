@@ -1,0 +1,5 @@
+It is possible to extract names of people, locations, and dates from each data entry in Case_Text. This can be accomplished by using Named Entity Recognition.
+
+To accomplish this, we can use a few capabilities of the python suite NLTK. NLTK can be used for chunking to identify noun phrases with a regex pattern. POS tags can then be applied, and a built-in classifier used to identify entity labels such as person, location, date, time, organization, etc.
+
+If desired, a column containing extracted entities and their labels could easily be added to the data set.

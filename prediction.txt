@@ -1,0 +1,5 @@
+i. I fit a 2nd order polynomial to the data in order to extrapolate to future years. In an attempt to reduce the effect of the noise in the data, I averaged the case count over 5 year spans. The R2 score of the fit to the original data was 0.7866, indicating a poor fit. After averaging and fitting a new model, the R2 score was 0.946.
+
+ii. I did some experimenting with support vector regression but decided to use numpy's simple polynomial regression. I chose this slightly more straightforward model because I was confused on the data augmentation aspect of the task. I am familiar with augmenting image data, but I was unsure how to go about augmenting data for years that are not included in the provided dataset.
+
+iii. I would certainly improve my process if I was working with real data. I would attempt to augment data by adding new instances based on normal distribution of values. Also, I would like to discuss the quality of the provided data with the client and expectations about predictions, hence the large margin of error in the current working model. Further, I would attempt to improve upon my regression because I believe a better fit is possible.
